@@ -29,6 +29,7 @@ header{
     left: 0;
     position: sticky;
     background-color: var(--white);
+    box-shadow: 1px 1px 5px grey;
 }
 .logo{
     text-transform: capitalize;
@@ -143,4 +144,49 @@ header{
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
     text-transform: uppercase;
+}
+.why{
+    padding: 4rem 10rem 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+    box-shadow: 2px 5px 4px var(--lavender);
+}
+.grid-section{
+    width: 40rem;
+    
+}
+.grid-section h1{
+    margin: 1rem;
+    line-height: 3rem;
+    color: var(--darkblue);
+    font-size: 2rem;
+    text-transform: capitalize;
+    letter-spacing:1px;
+    text-align: center;
+}
+.grid{
+    color: var(--darkblue);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    text-align: left;
+}
+.about{
+    padding: 4rem 10rem 4rem 10rem;
+}
+.slide1,.slide2, .slide3{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.content{
+    line-height: 2rem;
+    font-size: 1.2rem;
+    color: var(--darkblue);
+    margin: 10rem 2rem 0rem 2rem;
+    font-family: 'Poppins', sans-serif;
 }
