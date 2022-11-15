@@ -98,7 +98,7 @@ header{
     line-height: 4rem;
 }
 .aside-container{
-   padding: 3rem;
+   padding: 2rem;
    background-color: var(--white);
    margin: 7rem 8rem 0rem 0rem;
    border-radius: 3px;
@@ -107,7 +107,7 @@ header{
    text-align: center;
 }
 .aside-container h2{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: var(--darkblue);
     font-size: 2rem;
     text-transform: capitalize;
@@ -116,6 +116,8 @@ header{
     color: var(--darkblue);
     font-size: 1.3rem;
     text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .google, .email{
     text-decoration: none;
@@ -189,4 +191,57 @@ header{
     color: var(--darkblue);
     margin: 10rem 2rem 0rem 2rem;
     font-family: 'Poppins', sans-serif;
+}
+.free{
+    padding: 3rem 10rem 3rem 10rem;
+    background-image: linear-gradient(to right, var(--royal-blue) 60%,var(--lavender),var(--purple));
+}
+.free-container{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 4rem;
+}
+.getfree-btn{
+    border-radius: 3px;
+    color: black;
+    background-color: var(--purple);
+    border: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+.trusted{
+    color: var(--darkblue);
+    padding: 3rem 15rem 3rem 15rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.summary{
+    background-color: var(--lavender);
+    padding: 3rem 0rem 3rem 10rem;
+    color: var(--darkblue);
+    text-transform:capitalize ;
+}
+.summary-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(1, 1fr);
+    line-height: 2rem;
+}
+.product{
+    text-align: left;
+}
+.product a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--darkblue);
+    
+}
+.product h4{
+    text-align: left;
 }
