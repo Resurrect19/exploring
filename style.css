@@ -242,6 +242,25 @@ header{
     color: var(--darkblue);
     
 }
-.product h4{
-    text-align: left;
+.footer{
+    background-color: var(--lavender);
+    display:flex;
+    padding: 2rem 5rem 2rem 5rem;
+    justify-content: space-between;
+    color: var(--darkblue);
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+}
+.copywrite, .app{
+    display: flex;
+}
+.copywrite h2{
+    padding-left: 2rem;
+}
+.app{
+    font-size: 2rem;
+}
+.social-app{
+    margin-left: 1rem;
 }
