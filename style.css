@@ -235,6 +235,7 @@ header{
 }
 .product{
     text-align: left;
+    font-size: 1.3rem;
 }
 .product a{
     text-decoration: none;
