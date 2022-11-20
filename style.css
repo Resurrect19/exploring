@@ -62,7 +62,7 @@ header{
 }
 .home{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 1rem 10rem 1rem 10rem;
     background-image: linear-gradient(to right, var(--royal-blue) 50%,var(--lavender),var(--purple));
 }
@@ -150,7 +150,7 @@ header{
 .why{
     padding: 4rem 10rem 4rem 10rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     line-height: 2rem;
     box-shadow: 2px 5px 4px var(--lavender);
 }
@@ -181,7 +181,7 @@ header{
 }
 .slide1,.slide2, .slide3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 2rem 0rem 2rem 0rem;
 }
 
@@ -223,7 +223,7 @@ header{
 }
 .summary{
     background-color: var(--lavender);
-    padding: 3rem 0rem 3rem 10rem;
+    padding: 2rem 5rem 2rem 5rem;
     color: var(--darkblue);
     text-transform:capitalize ;
 }
@@ -232,6 +232,7 @@ header{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: repeat(1, 1fr);
     line-height: 2rem;
+  
 }
 .product{
     text-align: left;
@@ -247,7 +248,7 @@ header{
     background-color: var(--lavender);
     display:flex;
     padding: 2rem 5rem 2rem 5rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: var(--darkblue);
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
@@ -264,4 +265,86 @@ header{
 }
 .social-app{
     margin-left: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1300px){
+    body{
+        width: auto;
+    }
+   html{
+    width: auto;
+   }
+   .home{
+    padding: 0;
+    margin: 0;
+   }
+   .why{
+    margin: 0;
+    padding: 1rem;
+   }
+   .why-image{
+    margin: 0;
+    padding: 0;
+   }
+   .about{
+    margin: 0;
+    padding: 0;
+
+   }
+   .summary{
+    margin: 0;
+    padding: auto;
+   }
+   .footer{
+    margin: auto;
+    padding: auto;
+   }
+   
+}
+@media(max-width:991px){
+    body{
+        width: auto;
+    }
+    html{
+        font-size: 75%;
+    }
+    .why-image img{
+        width: 25rem;
+        margin: 0;
+        padding: 0;
+    }
+    .slide1,.slide2, .slide3{
+        margin: 0;
+        padding: 0;
+    }
+    .content{
+        width: 30rem;
+        margin: auto;
+        padding: auto;
+    }
+    
+
+    .slide-img img{
+        padding: 1rem;
+        margin: 0;
+        width: 40rem;
+    }
+}
+@media(max-width:768px){
+
 }
