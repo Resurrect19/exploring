@@ -184,6 +184,10 @@ header{
     justify-content: space-evenly;
     margin: 2rem 0rem 2rem 0rem;
 }
+.active{
+    visibility: hidden;
+    margin-top: -30rem;
+}
 
 .content{
     line-height: 2rem;
@@ -346,5 +350,138 @@ header{
     }
 }
 @media(max-width:768px){
+    body{
+        width: auto;
+    }
+    header{
+        display:flex;
+        justify-content: space-between;
+        padding: auto;
+        margin: 0;
+    }
+    .nav-btn{
+        margin-right: 0;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    .home{
+        margin: 0;
+        padding: 0;
+        line-height: 1.5rem;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .aside-container{
+        padding: 1rem;
+        margin:10rem 1rem 0rem 0rem;
+    }
 
+}
+@media(max-width:600px){
+    body{
+        width: auto;
+    }
+    html{
+        font-size: 90%;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin:0rem;
+    }
+    .container{
+        padding: 0;
+        line-height: 1.5rem;
+    }
+    aside{
+        align-self: center;
+    }
+    .aside-container{
+        margin: 0;
+        padding: 1rem;
+        width: 30rem;
+    }
+    .why{
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .about{
+        width: auto;
+        padding: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+    .active{
+        visibility: visible;
+        margin-top:30rem;
+    }
+    .slide1, .slide3{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+    .slide2{
+        visibility: hidden;
+        margin-top: -25rem;
+    }
+    .slide-img{
+        padding: 0rem;
+        margin: 0;
+        width: 30rem;
+
+    }
+    .free{
+        margin: 0;
+        padding: 1rem;
+    }
+    .trusted{
+        margin: 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+    .summary{
+        margin: 0;
+        padding: 1rem;
+    }
+    .summary-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 1rem;
+    }
+    .atlas{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .product{
+        padding: 1rem;
+        margin: 0;
+    }
+    .footer{
+        margin: 0;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .copywrite{
+        display: flex;
+        flex-direction: column;
+    }
+    .app{
+        float:right;
+        padding: 1rem;
+        margin: 0;
+        
+    }
 }
